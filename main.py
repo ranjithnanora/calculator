@@ -1,6 +1,6 @@
 from Addition.add import add_two_number
 from Subtraction.sub import sub_to_numbers
-
+from Division.div import div_two_numbers
 from Multiplication.mul import mul_two_numbers
 print("Calculator")
 num1=int(input("Enter num One: "))
@@ -21,7 +21,7 @@ match operation:
         print("\t\t",num1,"*",num2,"=",mul_two_numbers(num1,num2))
     case div if div=="/":
         print("Division")
-        print(num1,"/",num2,"=", div_two_numbers(num1,num2))
+        print("\t\t",num1,"/",num2,"=", div_two_numbers(num1,num2))
     case _:
         print("error: invalid operation")
 
