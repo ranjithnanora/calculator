@@ -21,6 +21,7 @@ match operation:
         print("\t\t",num1,"*",num2,"=",mul_two_numbers(num1,num2))
     case div if div=="/":
         print("Division")
+        print(num1,"/",num2,"=", div_two_numbers(num1,num2))
     case _:
         print("error: invalid operation")
 
