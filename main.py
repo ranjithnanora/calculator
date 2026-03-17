@@ -18,7 +18,7 @@ match operation:
         print("\t\t",num1,"-",num2,"=",sub_to_numbers(num1,num2))
     case mul if mul=="*":
         print("Multiplication")
-        print(num1,"*",num2,"=",mul_two_numbers(num1,num2))
+        print("\t\t",num1,"*",num2,"=",mul_two_numbers(num1,num2))
     case div if div=="/":
         print("Division")
     case _:
