@@ -1,4 +1,4 @@
-def mul_to_numbers(num1: int , num2: int)->int:
+def mul_two_numbers(num1: int , num2: int)->int:
     """
     This function multiply two numbers
     :param num1:
